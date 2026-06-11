@@ -4,7 +4,7 @@
   "description": "FIFA World Cup 2026 — Personal Telegram reminder (10 min before kickoff)",
   "private": true,
   "scripts": {
-    "dev": "vercel dev",
+    "dev": "vercel dev --skip-dev-cmd",
     "deploy": "vercel --prod"
   },
   "dependencies": {
@@ -14,6 +14,6 @@
   "devDependencies": {
     "@types/node": "^25.9.3",
     "typescript": "^5.0.0",
-    "vercel": "^33.0.0"
+    "vercel": "^54.11.1"
   }
 }
