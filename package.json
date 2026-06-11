@@ -1,0 +1,19 @@
+{
+  "name": "wc2026-reminder",
+  "version": "1.0.0",
+  "description": "FIFA World Cup 2026 — Personal Telegram reminder (10 min before kickoff)",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@vercel/kv": "^3.0.0",
+    "@vercel/node": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.3",
+    "typescript": "^5.0.0",
+    "vercel": "^33.0.0"
+  }
+}

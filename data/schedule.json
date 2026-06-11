@@ -1,0 +1,835 @@
+[
+  {
+    "id": 1,
+    "round": "Group A",
+    "home": "Mexico",
+    "away": "South Africa",
+    "utc": "2026-06-11T19:00:00Z",
+    "venue": "Estadio Azteca, Mexico City"
+  },
+  {
+    "id": 2,
+    "round": "Group A",
+    "home": "South Korea",
+    "away": "Czech Republic",
+    "utc": "2026-06-12T02:00:00Z",
+    "venue": "Estadio Akron, Guadalajara"
+  },
+  {
+    "id": 3,
+    "round": "Group B",
+    "home": "Canada",
+    "away": "Bosnia & Herzegovina",
+    "utc": "2026-06-12T19:00:00Z",
+    "venue": "BMO Field, Toronto"
+  },
+  {
+    "id": 4,
+    "round": "Group D",
+    "home": "USA",
+    "away": "Paraguay",
+    "utc": "2026-06-13T00:00:00Z",
+    "venue": "SoFi Stadium, Los Angeles"
+  },
+  {
+    "id": 5,
+    "round": "Group B",
+    "home": "Qatar",
+    "away": "Switzerland",
+    "utc": "2026-06-13T19:00:00Z",
+    "venue": "Levi's Stadium, Santa Clara"
+  },
+  {
+    "id": 6,
+    "round": "Group C",
+    "home": "Brazil",
+    "away": "Morocco",
+    "utc": "2026-06-13T22:00:00Z",
+    "venue": "MetLife Stadium, New Jersey"
+  },
+  {
+    "id": 7,
+    "round": "Group C",
+    "home": "Haiti",
+    "away": "Scotland",
+    "utc": "2026-06-14T01:00:00Z",
+    "venue": "Gillette Stadium, Foxborough"
+  },
+  {
+    "id": 8,
+    "round": "Group D",
+    "home": "Australia",
+    "away": "Turkey",
+    "utc": "2026-06-14T04:00:00Z",
+    "venue": "BC Place, Vancouver"
+  },
+  {
+    "id": 9,
+    "round": "Group E",
+    "home": "Germany",
+    "away": "Curaçao",
+    "utc": "2026-06-14T17:00:00Z",
+    "venue": "NRG Stadium, Houston"
+  },
+  {
+    "id": 10,
+    "round": "Group F",
+    "home": "Netherlands",
+    "away": "Japan",
+    "utc": "2026-06-14T20:00:00Z",
+    "venue": "AT&T Stadium, Arlington"
+  },
+  {
+    "id": 11,
+    "round": "Group E",
+    "home": "Ivory Coast",
+    "away": "Ecuador",
+    "utc": "2026-06-14T23:00:00Z",
+    "venue": "Lincoln Financial Field, Philadelphia"
+  },
+  {
+    "id": 12,
+    "round": "Group F",
+    "home": "Sweden",
+    "away": "Tunisia",
+    "utc": "2026-06-15T02:00:00Z",
+    "venue": "Estadio BBVA, Monterrey"
+  },
+  {
+    "id": 13,
+    "round": "Group H",
+    "home": "Spain",
+    "away": "Cape Verde",
+    "utc": "2026-06-15T16:00:00Z",
+    "venue": "Mercedes-Benz Stadium, Atlanta"
+  },
+  {
+    "id": 14,
+    "round": "Group G",
+    "home": "Belgium",
+    "away": "Egypt",
+    "utc": "2026-06-15T19:00:00Z",
+    "venue": "Lumen Field, Seattle"
+  },
+  {
+    "id": 15,
+    "round": "Group H",
+    "home": "Saudi Arabia",
+    "away": "Uruguay",
+    "utc": "2026-06-15T22:00:00Z",
+    "venue": "Hard Rock Stadium, Miami"
+  },
+  {
+    "id": 16,
+    "round": "Group G",
+    "home": "Iran",
+    "away": "New Zealand",
+    "utc": "2026-06-16T01:00:00Z",
+    "venue": "SoFi Stadium, Los Angeles"
+  },
+  {
+    "id": 17,
+    "round": "Group I",
+    "home": "France",
+    "away": "Senegal",
+    "utc": "2026-06-16T19:00:00Z",
+    "venue": "MetLife Stadium, New Jersey"
+  },
+  {
+    "id": 18,
+    "round": "Group I",
+    "home": "Iraq",
+    "away": "Norway",
+    "utc": "2026-06-16T22:00:00Z",
+    "venue": "Gillette Stadium, Foxborough"
+  },
+  {
+    "id": 19,
+    "round": "Group J",
+    "home": "Argentina",
+    "away": "Algeria",
+    "utc": "2026-06-17T01:00:00Z",
+    "venue": "Arrowhead Stadium, Kansas City"
+  },
+  {
+    "id": 20,
+    "round": "Group J",
+    "home": "Austria",
+    "away": "Jordan",
+    "utc": "2026-06-17T04:00:00Z",
+    "venue": "Levi's Stadium, Santa Clara"
+  },
+  {
+    "id": 21,
+    "round": "Group K",
+    "home": "Portugal",
+    "away": "DR Congo",
+    "utc": "2026-06-17T17:00:00Z",
+    "venue": "NRG Stadium, Houston"
+  },
+  {
+    "id": 22,
+    "round": "Group L",
+    "home": "England",
+    "away": "Croatia",
+    "utc": "2026-06-17T20:00:00Z",
+    "venue": "AT&T Stadium, Arlington"
+  },
+  {
+    "id": 23,
+    "round": "Group L",
+    "home": "Ghana",
+    "away": "Panama",
+    "utc": "2026-06-17T23:00:00Z",
+    "venue": "BMO Field, Toronto"
+  },
+  {
+    "id": 24,
+    "round": "Group K",
+    "home": "Uzbekistan",
+    "away": "Colombia",
+    "utc": "2026-06-18T02:00:00Z",
+    "venue": "Estadio Azteca, Mexico City"
+  },
+  {
+    "id": 25,
+    "round": "Group A",
+    "home": "Czech Republic",
+    "away": "South Africa",
+    "utc": "2026-06-18T16:00:00Z",
+    "venue": "Mercedes-Benz Stadium, Atlanta"
+  },
+  {
+    "id": 26,
+    "round": "Group B",
+    "home": "Switzerland",
+    "away": "Bosnia & Herzegovina",
+    "utc": "2026-06-18T19:00:00Z",
+    "venue": "SoFi Stadium, Los Angeles"
+  },
+  {
+    "id": 27,
+    "round": "Group B",
+    "home": "Canada",
+    "away": "Qatar",
+    "utc": "2026-06-18T22:00:00Z",
+    "venue": "BC Place, Vancouver"
+  },
+  {
+    "id": 28,
+    "round": "Group A",
+    "home": "Mexico",
+    "away": "South Korea",
+    "utc": "2026-06-19T01:00:00Z",
+    "venue": "Estadio Akron, Guadalajara"
+  },
+  {
+    "id": 29,
+    "round": "Group D",
+    "home": "USA",
+    "away": "Australia",
+    "utc": "2026-06-19T19:00:00Z",
+    "venue": "Lumen Field, Seattle"
+  },
+  {
+    "id": 30,
+    "round": "Group C",
+    "home": "Scotland",
+    "away": "Morocco",
+    "utc": "2026-06-19T22:00:00Z",
+    "venue": "Gillette Stadium, Foxborough"
+  },
+  {
+    "id": 31,
+    "round": "Group C",
+    "home": "Brazil",
+    "away": "Haiti",
+    "utc": "2026-06-20T01:00:00Z",
+    "venue": "Lincoln Financial Field, Philadelphia"
+  },
+  {
+    "id": 32,
+    "round": "Group D",
+    "home": "Turkey",
+    "away": "Paraguay",
+    "utc": "2026-06-20T04:00:00Z",
+    "venue": "Levi's Stadium, Santa Clara"
+  },
+  {
+    "id": 33,
+    "round": "Group F",
+    "home": "Netherlands",
+    "away": "Sweden",
+    "utc": "2026-06-20T17:00:00Z",
+    "venue": "NRG Stadium, Houston"
+  },
+  {
+    "id": 34,
+    "round": "Group E",
+    "home": "Germany",
+    "away": "Ivory Coast",
+    "utc": "2026-06-20T20:00:00Z",
+    "venue": "BMO Field, Toronto"
+  },
+  {
+    "id": 35,
+    "round": "Group E",
+    "home": "Ecuador",
+    "away": "Curaçao",
+    "utc": "2026-06-21T00:00:00Z",
+    "venue": "Arrowhead Stadium, Kansas City"
+  },
+  {
+    "id": 36,
+    "round": "Group F",
+    "home": "Tunisia",
+    "away": "Japan",
+    "utc": "2026-06-21T04:00:00Z",
+    "venue": "Estadio BBVA, Monterrey"
+  },
+  {
+    "id": 37,
+    "round": "Group H",
+    "home": "Spain",
+    "away": "Saudi Arabia",
+    "utc": "2026-06-21T16:00:00Z",
+    "venue": "Mercedes-Benz Stadium, Atlanta"
+  },
+  {
+    "id": 38,
+    "round": "Group G",
+    "home": "Belgium",
+    "away": "Iran",
+    "utc": "2026-06-21T19:00:00Z",
+    "venue": "SoFi Stadium, Los Angeles"
+  },
+  {
+    "id": 39,
+    "round": "Group H",
+    "home": "Uruguay",
+    "away": "Cape Verde",
+    "utc": "2026-06-21T22:00:00Z",
+    "venue": "Hard Rock Stadium, Miami"
+  },
+  {
+    "id": 40,
+    "round": "Group G",
+    "home": "New Zealand",
+    "away": "Egypt",
+    "utc": "2026-06-22T01:00:00Z",
+    "venue": "BC Place, Vancouver"
+  },
+  {
+    "id": 41,
+    "round": "Group J",
+    "home": "Argentina",
+    "away": "Austria",
+    "utc": "2026-06-22T17:00:00Z",
+    "venue": "AT&T Stadium, Arlington"
+  },
+  {
+    "id": 42,
+    "round": "Group I",
+    "home": "France",
+    "away": "Iraq",
+    "utc": "2026-06-22T21:00:00Z",
+    "venue": "Lincoln Financial Field, Philadelphia"
+  },
+  {
+    "id": 43,
+    "round": "Group I",
+    "home": "Norway",
+    "away": "Senegal",
+    "utc": "2026-06-23T00:00:00Z",
+    "venue": "BMO Field, Toronto"
+  },
+  {
+    "id": 44,
+    "round": "Group J",
+    "home": "Jordan",
+    "away": "Algeria",
+    "utc": "2026-06-23T03:00:00Z",
+    "venue": "Levi's Stadium, Santa Clara"
+  },
+  {
+    "id": 45,
+    "round": "Group K",
+    "home": "Portugal",
+    "away": "Uzbekistan",
+    "utc": "2026-06-23T17:00:00Z",
+    "venue": "NRG Stadium, Houston"
+  },
+  {
+    "id": 46,
+    "round": "Group L",
+    "home": "England",
+    "away": "Ghana",
+    "utc": "2026-06-23T20:00:00Z",
+    "venue": "Gillette Stadium, Foxborough"
+  },
+  {
+    "id": 47,
+    "round": "Group L",
+    "home": "Panama",
+    "away": "Croatia",
+    "utc": "2026-06-23T23:00:00Z",
+    "venue": "Gillette Stadium, Foxborough"
+  },
+  {
+    "id": 48,
+    "round": "Group K",
+    "home": "Colombia",
+    "away": "DR Congo",
+    "utc": "2026-06-24T02:00:00Z",
+    "venue": "Estadio Akron, Guadalajara"
+  },
+  {
+    "id": 49,
+    "round": "Group B",
+    "home": "Switzerland",
+    "away": "Canada",
+    "utc": "2026-06-24T19:00:00Z",
+    "venue": "BC Place, Vancouver"
+  },
+  {
+    "id": 50,
+    "round": "Group B",
+    "home": "Bosnia & Herzegovina",
+    "away": "Qatar",
+    "utc": "2026-06-24T19:00:00Z",
+    "venue": "Lumen Field, Seattle"
+  },
+  {
+    "id": 51,
+    "round": "Group C",
+    "home": "Morocco",
+    "away": "Haiti",
+    "utc": "2026-06-24T22:00:00Z",
+    "venue": "Mercedes-Benz Stadium, Atlanta"
+  },
+  {
+    "id": 52,
+    "round": "Group C",
+    "home": "Scotland",
+    "away": "Brazil",
+    "utc": "2026-06-24T22:00:00Z",
+    "venue": "Hard Rock Stadium, Miami"
+  },
+  {
+    "id": 53,
+    "round": "Group A",
+    "home": "Czech Republic",
+    "away": "Mexico",
+    "utc": "2026-06-25T01:00:00Z",
+    "venue": "Estadio Azteca, Mexico City"
+  },
+  {
+    "id": 54,
+    "round": "Group A",
+    "home": "South Africa",
+    "away": "South Korea",
+    "utc": "2026-06-25T01:00:00Z",
+    "venue": "Estadio BBVA, Monterrey"
+  },
+  {
+    "id": 55,
+    "round": "Group E",
+    "home": "Curaçao",
+    "away": "Ivory Coast",
+    "utc": "2026-06-25T20:00:00Z",
+    "venue": "Lincoln Financial Field, Philadelphia"
+  },
+  {
+    "id": 56,
+    "round": "Group E",
+    "home": "Ecuador",
+    "away": "Germany",
+    "utc": "2026-06-25T20:00:00Z",
+    "venue": "MetLife Stadium, New Jersey"
+  },
+  {
+    "id": 57,
+    "round": "Group F",
+    "home": "Japan",
+    "away": "Sweden",
+    "utc": "2026-06-25T23:00:00Z",
+    "venue": "AT&T Stadium, Arlington"
+  },
+  {
+    "id": 58,
+    "round": "Group F",
+    "home": "Tunisia",
+    "away": "Netherlands",
+    "utc": "2026-06-25T23:00:00Z",
+    "venue": "Arrowhead Stadium, Kansas City"
+  },
+  {
+    "id": 59,
+    "round": "Group D",
+    "home": "Turkey",
+    "away": "USA",
+    "utc": "2026-06-26T02:00:00Z",
+    "venue": "SoFi Stadium, Los Angeles"
+  },
+  {
+    "id": 60,
+    "round": "Group D",
+    "home": "Paraguay",
+    "away": "Australia",
+    "utc": "2026-06-26T02:00:00Z",
+    "venue": "Levi's Stadium, Santa Clara"
+  },
+  {
+    "id": 61,
+    "round": "Group I",
+    "home": "Norway",
+    "away": "France",
+    "utc": "2026-06-26T19:00:00Z",
+    "venue": "Gillette Stadium, Foxborough"
+  },
+  {
+    "id": 62,
+    "round": "Group I",
+    "home": "Senegal",
+    "away": "Iraq",
+    "utc": "2026-06-26T19:00:00Z",
+    "venue": "BMO Field, Toronto"
+  },
+  {
+    "id": 63,
+    "round": "Group H",
+    "home": "Cape Verde",
+    "away": "Saudi Arabia",
+    "utc": "2026-06-27T00:00:00Z",
+    "venue": "NRG Stadium, Houston"
+  },
+  {
+    "id": 64,
+    "round": "Group H",
+    "home": "Uruguay",
+    "away": "Spain",
+    "utc": "2026-06-27T00:00:00Z",
+    "venue": "Estadio Akron, Guadalajara"
+  },
+  {
+    "id": 65,
+    "round": "Group G",
+    "home": "New Zealand",
+    "away": "Belgium",
+    "utc": "2026-06-27T03:00:00Z",
+    "venue": "BC Place, Vancouver"
+  },
+  {
+    "id": 66,
+    "round": "Group G",
+    "home": "Egypt",
+    "away": "Iran",
+    "utc": "2026-06-27T03:00:00Z",
+    "venue": "Lumen Field, Seattle"
+  },
+  {
+    "id": 67,
+    "round": "Group L",
+    "home": "Panama",
+    "away": "England",
+    "utc": "2026-06-27T21:00:00Z",
+    "venue": "MetLife Stadium, New Jersey"
+  },
+  {
+    "id": 68,
+    "round": "Group L",
+    "home": "Croatia",
+    "away": "Ghana",
+    "utc": "2026-06-27T21:00:00Z",
+    "venue": "Lincoln Financial Field, Philadelphia"
+  },
+  {
+    "id": 69,
+    "round": "Group K",
+    "home": "Colombia",
+    "away": "Portugal",
+    "utc": "2026-06-27T23:30:00Z",
+    "venue": "Hard Rock Stadium, Miami"
+  },
+  {
+    "id": 70,
+    "round": "Group K",
+    "home": "DR Congo",
+    "away": "Uzbekistan",
+    "utc": "2026-06-27T23:30:00Z",
+    "venue": "Mercedes-Benz Stadium, Atlanta"
+  },
+  {
+    "id": 71,
+    "round": "Group J",
+    "home": "Algeria",
+    "away": "Austria",
+    "utc": "2026-06-28T02:00:00Z",
+    "venue": "Arrowhead Stadium, Kansas City"
+  },
+  {
+    "id": 72,
+    "round": "Group J",
+    "home": "Jordan",
+    "away": "Argentina",
+    "utc": "2026-06-28T02:00:00Z",
+    "venue": "AT&T Stadium, Arlington"
+  },
+  {
+    "id": 73,
+    "round": "Round of 32",
+    "home": "Group A Runner-up",
+    "away": "Group B Runner-up",
+    "utc": "2026-06-28T19:00:00Z",
+    "venue": "SoFi Stadium, Los Angeles"
+  },
+  {
+    "id": 74,
+    "round": "Round of 32",
+    "home": "Group E Winner",
+    "away": "Best 3rd Place",
+    "utc": "2026-06-29T20:30:00Z",
+    "venue": "Gillette Stadium, Boston"
+  },
+  {
+    "id": 75,
+    "round": "Round of 32",
+    "home": "Group F Winner",
+    "away": "Group C Runner-up",
+    "utc": "2026-06-30T01:00:00Z",
+    "venue": "Estadio BBVA, Monterrey"
+  },
+  {
+    "id": 76,
+    "round": "Round of 32",
+    "home": "Group C Winner",
+    "away": "Group F Runner-up",
+    "utc": "2026-06-29T17:00:00Z",
+    "venue": "NRG Stadium, Houston"
+  },
+  {
+    "id": 77,
+    "round": "Round of 32",
+    "home": "Group I Winner",
+    "away": "Best 3rd Place",
+    "utc": "2026-06-30T21:00:00Z",
+    "venue": "MetLife Stadium, New York"
+  },
+  {
+    "id": 78,
+    "round": "Round of 32",
+    "home": "Group E Runner-up",
+    "away": "Group I Runner-up",
+    "utc": "2026-06-30T17:00:00Z",
+    "venue": "AT&T Stadium, Dallas"
+  },
+  {
+    "id": 79,
+    "round": "Round of 32",
+    "home": "Group A Winner",
+    "away": "Best 3rd Place",
+    "utc": "2026-07-01T01:00:00Z",
+    "venue": "Estadio Azteca, Mexico City"
+  },
+  {
+    "id": 80,
+    "round": "Round of 32",
+    "home": "Group L Winner",
+    "away": "Best 3rd Place",
+    "utc": "2026-07-01T16:00:00Z",
+    "venue": "Mercedes-Benz Stadium, Atlanta"
+  },
+  {
+    "id": 81,
+    "round": "Round of 32",
+    "home": "Group D Winner",
+    "away": "Best 3rd Place",
+    "utc": "2026-07-02T00:00:00Z",
+    "venue": "Levi's Stadium, San Francisco"
+  },
+  {
+    "id": 82,
+    "round": "Round of 32",
+    "home": "Group G Winner",
+    "away": "Best 3rd Place",
+    "utc": "2026-07-01T20:00:00Z",
+    "venue": "Lumen Field, Seattle"
+  },
+  {
+    "id": 83,
+    "round": "Round of 32",
+    "home": "Group K Runner-up",
+    "away": "Group L Runner-up",
+    "utc": "2026-07-02T23:00:00Z",
+    "venue": "BMO Field, Toronto"
+  },
+  {
+    "id": 84,
+    "round": "Round of 32",
+    "home": "Group H Winner",
+    "away": "Group J Runner-up",
+    "utc": "2026-07-02T19:00:00Z",
+    "venue": "SoFi Stadium, Los Angeles"
+  },
+  {
+    "id": 85,
+    "round": "Round of 32",
+    "home": "Group B Winner",
+    "away": "Best 3rd Place",
+    "utc": "2026-07-03T03:00:00Z",
+    "venue": "BC Place, Vancouver"
+  },
+  {
+    "id": 86,
+    "round": "Round of 32",
+    "home": "Group D Runner-up",
+    "away": "Group G Runner-up",
+    "utc": "2026-07-03T22:00:00Z",
+    "venue": "Hard Rock Stadium, Miami"
+  },
+  {
+    "id": 87,
+    "round": "Round of 32",
+    "home": "Group K Winner",
+    "away": "Best 3rd Place",
+    "utc": "2026-07-04T00:30:00Z",
+    "venue": "BC Place, Vancouver"
+  },
+  {
+    "id": 88,
+    "round": "Round of 32",
+    "home": "Group J Winner",
+    "away": "Group H Runner-up",
+    "utc": "2026-07-03T18:00:00Z",
+    "venue": "AT&T Stadium, Dallas"
+  },
+  {
+    "id": 89,
+    "round": "Round of 16",
+    "home": "W Match 74",
+    "away": "W Match 77",
+    "utc": "2026-07-04T21:00:00Z",
+    "venue": "Lincoln Financial Field, Philadelphia"
+  },
+  {
+    "id": 90,
+    "round": "Round of 16",
+    "home": "W Match 73",
+    "away": "W Match 75",
+    "utc": "2026-07-04T17:00:00Z",
+    "venue": "NRG Stadium, Houston"
+  },
+  {
+    "id": 91,
+    "round": "Round of 16",
+    "home": "W Match 76",
+    "away": "W Match 78",
+    "utc": "2026-07-05T20:00:00Z",
+    "venue": "MetLife Stadium, New York"
+  },
+  {
+    "id": 92,
+    "round": "Round of 16",
+    "home": "W Match 79",
+    "away": "W Match 80",
+    "utc": "2026-07-06T00:00:00Z",
+    "venue": "Estadio Azteca, Mexico City"
+  },
+  {
+    "id": 93,
+    "round": "Round of 16",
+    "home": "W Match 83",
+    "away": "W Match 84",
+    "utc": "2026-07-06T19:00:00Z",
+    "venue": "AT&T Stadium, Dallas"
+  },
+  {
+    "id": 94,
+    "round": "Round of 16",
+    "home": "W Match 81",
+    "away": "W Match 82",
+    "utc": "2026-07-07T00:00:00Z",
+    "venue": "Lumen Field, Seattle"
+  },
+  {
+    "id": 95,
+    "round": "Round of 16",
+    "home": "W Match 86",
+    "away": "W Match 88",
+    "utc": "2026-07-07T16:00:00Z",
+    "venue": "Mercedes-Benz Stadium, Atlanta"
+  },
+  {
+    "id": 96,
+    "round": "Round of 16",
+    "home": "W Match 85",
+    "away": "W Match 87",
+    "utc": "2026-07-07T20:00:00Z",
+    "venue": "BC Place, Vancouver"
+  },
+  {
+    "id": 97,
+    "round": "Quarter-Final",
+    "home": "W Match 89",
+    "away": "W Match 90",
+    "utc": "2026-07-09T20:00:00Z",
+    "venue": "Gillette Stadium, Boston"
+  },
+  {
+    "id": 98,
+    "round": "Quarter-Final",
+    "home": "W Match 93",
+    "away": "W Match 94",
+    "utc": "2026-07-10T19:00:00Z",
+    "venue": "SoFi Stadium, Los Angeles"
+  },
+  {
+    "id": 99,
+    "round": "Quarter-Final",
+    "home": "W Match 95",
+    "away": "W Match 96",
+    "utc": "2026-07-11T21:00:00Z",
+    "venue": "Hard Rock Stadium, Miami"
+  },
+  {
+    "id": 100,
+    "round": "Quarter-Final",
+    "home": "W Match 91",
+    "away": "W Match 92",
+    "utc": "2026-07-12T01:00:00Z",
+    "venue": "Arrowhead Stadium, Kansas City"
+  },
+  {
+    "id": 101,
+    "round": "Semi-Final",
+    "home": "W Match 97",
+    "away": "W Match 98",
+    "utc": "2026-07-14T19:00:00Z",
+    "venue": "AT&T Stadium, Dallas"
+  },
+  {
+    "id": 102,
+    "round": "Semi-Final",
+    "home": "W Match 99",
+    "away": "W Match 100",
+    "utc": "2026-07-15T19:00:00Z",
+    "venue": "Mercedes-Benz Stadium, Atlanta"
+  },
+  {
+    "id": 103,
+    "round": "Third-Place Play-off",
+    "home": "Loser Match 101",
+    "away": "Loser Match 102",
+    "utc": "2026-07-18T21:00:00Z",
+    "venue": "Hard Rock Stadium, Miami"
+  },
+  {
+    "id": 104,
+    "round": "Final",
+    "home": "Winner Match 101",
+    "away": "Winner Match 102",
+    "utc": "2026-07-19T19:00:00Z",
+    "venue": "MetLife Stadium, New Jersey"
+  }
+]
+
