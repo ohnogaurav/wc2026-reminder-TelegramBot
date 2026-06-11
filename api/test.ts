@@ -1,15 +1,15 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
 
-const BOT_TOKEN = process.env.BOT_TOKEN;
-const CHAT_ID = process.env.CHAT_ID;
-const CRON_SECRET = process.env.CRON_SECRET;
+const BOT_TOKEN = process.env.BOT_TOKEN?.trim();
+const CHAT_ID = process.env.CHAT_ID?.trim();
+const CRON_SECRET = process.env.CRON_SECRET?.trim();
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method !== "POST") {
     return res.status(405).json({ error: "Method not allowed. Use POST." });
   }
 
-  const secret = req.headers["x-test-secret"];
+  const secret = (req.headers["x-test-secret"] as string)?.trim();
   if (secret !== CRON_SECRET) {
     return res.status(401).json({ error: "Unauthorized" });
   }

@@ -5,11 +5,11 @@ import path from "path";
 import os from "os";
 import matches from "../data/schedule.json";
 
-const BOT_TOKEN = process.env.BOT_TOKEN;
-const CHAT_ID = process.env.CHAT_ID;
-const CRON_SECRET = process.env.CRON_SECRET;
-const KV_REST_API_URL = process.env.KV_REST_API_URL;
-const KV_REST_API_TOKEN = process.env.KV_REST_API_TOKEN;
+const BOT_TOKEN = process.env.BOT_TOKEN?.trim();
+const CHAT_ID = process.env.CHAT_ID?.trim();
+const CRON_SECRET = process.env.CRON_SECRET?.trim();
+const KV_REST_API_URL = process.env.KV_REST_API_URL?.trim();
+const KV_REST_API_TOKEN = process.env.KV_REST_API_TOKEN?.trim();
 
 const hasKV = !!KV_REST_API_URL && !!KV_REST_API_TOKEN;
 const kvClient = hasKV ? createClient({
@@ -95,7 +95,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   }
 
   // Vercel cron auth check
-  const authHeader = req.headers["authorization"];
+  const authHeader = req.headers["authorization"]?.trim();
   if (authHeader !== `Bearer ${CRON_SECRET}`) {
     return res.status(401).json({ error: "Unauthorized" });
   }
