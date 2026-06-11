@@ -4,6 +4,9 @@ import fs from "fs";
 import path from "path";
 import os from "os";
 import matches from "../data/schedule.json";
+import { loadEnv } from "../lib/env";
+
+loadEnv();
 
 const BOT_TOKEN = process.env.BOT_TOKEN?.trim();
 const CHAT_ID = process.env.CHAT_ID?.trim();

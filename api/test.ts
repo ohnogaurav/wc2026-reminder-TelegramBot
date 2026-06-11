@@ -1,4 +1,7 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
+import { loadEnv } from "../lib/env";
+
+loadEnv();
 
 const BOT_TOKEN = process.env.BOT_TOKEN?.trim();
 const CHAT_ID = process.env.CHAT_ID?.trim();
@@ -11,7 +14,12 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
   const secret = (req.headers["x-test-secret"] as string)?.trim();
   if (secret !== CRON_SECRET) {
-    return res.status(401).json({ error: "Unauthorized" });
+    return res.status(401).json({
+      error: "Unauthorized",
+      received_header: secret,
+      expected_secret: CRON_SECRET,
+      all_env_keys: Object.keys(process.env).filter(k => k.includes("SECRET") || k.includes("BOT") || k.includes("CHAT"))
+    });
   }
 
   if (!BOT_TOKEN || !CHAT_ID) {
