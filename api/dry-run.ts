@@ -15,7 +15,8 @@ function toIST(dateInput: string | number | Date): string {
 
 export default function handler(_req: VercelRequest, res: VercelResponse) {
   const now = Date.now();
-  const normalizedNow = Math.round(now / 60000) * 60000;
+  const LOWER_BOUND_MS = 9 * 60 * 1000;
+  const UPPER_BOUND_MS = 11 * 60 * 1000;
   const TEN_MIN_MS = 10 * 60 * 1000;
 
   // Find the next upcoming match
@@ -28,9 +29,8 @@ export default function handler(_req: VercelRequest, res: VercelResponse) {
   let nextMatchDetails = null;
   if (nextMatch) {
     const kickoffMs = new Date(nextMatch.utc).getTime();
-    const normalizedKickoff = Math.round(kickoffMs / 60000) * 60000;
+    const diff = kickoffMs - now;
     const notificationTimeMs = kickoffMs - TEN_MIN_MS;
-    const diff = normalizedKickoff - normalizedNow;
 
     nextMatchDetails = {
       id: nextMatch.id,
@@ -40,7 +40,7 @@ export default function handler(_req: VercelRequest, res: VercelResponse) {
       kickoff_utc: nextMatch.utc,
       kickoff_ist: `${toIST(nextMatch.utc)} IST`,
       notification_time_ist: `${toIST(notificationTimeMs)} IST`,
-      would_notify_this_match_right_now: diff === TEN_MIN_MS,
+      would_notify_this_match_right_now: diff >= LOWER_BOUND_MS && diff <= UPPER_BOUND_MS,
     };
   }
 
@@ -50,10 +50,9 @@ export default function handler(_req: VercelRequest, res: VercelResponse) {
 
   for (const match of matches) {
     const kickoffMs = new Date(match.utc).getTime();
-    const normalizedKickoff = Math.round(kickoffMs / 60000) * 60000;
-    const diff = normalizedKickoff - normalizedNow;
+    const diff = kickoffMs - now;
 
-    if (diff === TEN_MIN_MS) {
+    if (diff >= LOWER_BOUND_MS && diff <= UPPER_BOUND_MS) {
       wouldSendNotificationRightNow = true;
       triggeringMatches.push({
         id: match.id,

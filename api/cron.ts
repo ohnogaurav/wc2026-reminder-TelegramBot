@@ -104,18 +104,17 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   }
 
   const now = Date.now();
-  const normalizedNow = Math.round(now / 60000) * 60000;
-  const TEN_MIN_MS = 10 * 60 * 1000;
+  const LOWER_BOUND_MS = 9 * 60 * 1000;
+  const UPPER_BOUND_MS = 11 * 60 * 1000;
 
   const notified: number[] = [];
 
   for (const match of matches) {
     const kickoff = new Date(match.utc).getTime();
-    const normalizedKickoff = Math.round(kickoff / 60000) * 60000;
-    const diff = normalizedKickoff - normalizedNow;
+    const diff = kickoff - now;
 
-    // Trigger if kickoff is exactly 10 minutes away (normalized to minutes)
-    if (diff === TEN_MIN_MS) {
+    // Trigger if kickoff is between 9 and 11 minutes away
+    if (diff >= LOWER_BOUND_MS && diff <= UPPER_BOUND_MS) {
       // Check deduplication
       const alreadyNotified = await isMatchNotified(match.id);
       if (alreadyNotified) {
